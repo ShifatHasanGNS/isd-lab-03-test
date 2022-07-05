@@ -8,14 +8,14 @@ using namespace std;
 // main function 
 int main()
 {
-    // we put the program in a loop using the while statement
+    // put the program in a loop using the while statement
     while (true)
     {
       // variables for numbers we're gonna calculate and also operation number
       double num1, num2;
       int operation;
 
-      // we first ask the user for operation number and show them a list of operations with their own unique number
+      // first ask the user for operation number and show them a list of operations with their own unique number
       cout << "\nPlease enter your operation from the list down below:\n";
       cout << "1: Sum\n2: Substraction\n3: Multiplication\n4: Division\n5: Square Root\n\n6: EXIT" << endl;
 
@@ -40,7 +40,7 @@ int main()
           cout << "-> ";
           cin >> num2;
 
-          // here we use a switch statement instead of a million if-statements. this gives us mamy advantages, mostly in terms of performance
+          // use a switch statement instead of a million if-statements. this gives us mamy advantages, mostly in terms of performance
           switch (operation)
           {
 
@@ -77,7 +77,7 @@ int main()
         }
       else{
           // if program reaches this line of code, it means the user has entered the number "6" as operation number
-          // and so what we need to do is to break the loop and simply finish the program.
+          // and so what we need to do is to break the loop and simply finish the program
           return 0;
       }
 
