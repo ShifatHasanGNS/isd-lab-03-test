@@ -71,7 +71,7 @@ int main()
                   break;
                   // at this point, we've reached the end of the program. so what happens is that the program goes back to the
                   // line 10 and again repeats the cycle. this cycle goes forever, until the user enters the operation number 6 (which closes the program)
-                  // or program gets closed by other factors, such as program facing any sort of error or user killing the process
+                  // or program gets closed by other factors, such as facing any sort of error or user killing the process
             }
           }
         }
