@@ -1,9 +1,11 @@
-// importing necessary libraries
+// import necessary libraries
 #include <iostream>
 #include <cmath>
 
+// use the namespace std
 using namespace std;
- 
+
+// main function 
 int main()
 {
     // we put the program in a loop using the while statement
@@ -69,7 +71,7 @@ int main()
                   break;
                   // at this point, we've reached the end of the program. so what happens is that the program goes back to the
                   // line 10 and again repeats the cycle. this cycle goes forever, until the user enters the operation number 6 (which closes the program)
-                  // or program gets closed by other factors, like user killing the process or program facing any sort of error
+                  // or program gets closed by other factors, such as program facing any sort of error or user killing the process
             }
           }
         }
